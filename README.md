@@ -7,7 +7,7 @@ Migrate models/components from Strapi V3 to Payload CMS.
 This repository should be cloned to run.
 
 ```shell
-$ git clone acomagu/strapi-payload-model-migrator
+$ git clone git@github.com:acomagu/strapi-payload-model-migrator
 $ cd strapi-payload-model-migrator
 $ deno run -A ./gen.ts <strapi-directory>
 $ deno run -A ./index.ts > <payload-directory>/src/collections/strapi-collections.json
